@@ -1,0 +1,175 @@
+@use "mixingfunc";
+
+@mixin fa-btn-style($left, $right, $top, $bottom) {
+  position: absolute;
+  left: $left;
+  right: $right;
+  top: $top;
+  bottom: $bottom;
+  color: #fff;
+  font-size: 50px;
+}
+
+.boton-nav {
+  padding-top: 8px;
+  text-decoration: none;
+  position: absolute;
+  background: #fff;
+  color: #000;
+  border-radius: 50px;
+  @include mixingfunc.measures(264px, 47px, 344px, 53px);
+  @include mixingfunc.font-style(Montserrat, normal, 600, 25px, 30px, center);
+  &:hover {
+    background: #8eaaff;
+    color: #fff;
+    transition: all 0.4s ease;
+  }
+}
+.boton-nav-3 {
+  padding-top: 8px;
+  text-decoration: none;
+  position: absolute;
+  background: #8eaaff;
+  color: #fff;
+  border-radius: 50px;
+  @include mixingfunc.measures(264px, 47px, 344px, 53px);
+  @include mixingfunc.font-style(Montserrat, normal, 600, 25px, 30px, center);
+  &:hover {
+    background: #fff;
+    color: #000;
+
+    transition: all 0.4s ease;
+  }
+}
+
+.boton-nav-2 {
+  position: absolute;
+  padding-top: 8px;
+  text-decoration: none;
+  background: #8eaaff;
+  color: #fff;
+  border-radius: 50px;
+  @include mixingfunc.measures(264px, 47px, 623px, 53px);
+  @include mixingfunc.font-style(Montserrat, normal, 600, 25px, 30px, center);
+  text-decoration: none;
+
+  &:hover {
+    background: #fff;
+    color: #000;
+    transition: all 0.4s ease;
+  }
+}
+.boton-nav-4 {
+  position: absolute;
+  padding-top: 8px;
+  text-decoration: none;
+
+  background: #fff;
+  color: #000;
+  border-radius: 50px;
+  @include mixingfunc.measures(264px, 47px, 623px, 53px);
+  @include mixingfunc.font-style(Montserrat, normal, 600, 25px, 30px, center);
+  text-decoration: none;
+
+  &:hover {
+    background: #8eaaff;
+    color: #fff;
+
+    transition: all 0.4s ease;
+  }
+}
+
+.fa-bell {
+  @include fa-btn-style(76.94%, 19.58%, 5.08%, 90.04%);
+  &:hover {
+    color: rgba(230, 218, 218, 0.5);
+  }
+}
+.fa-envelope {
+  @include fa-btn-style(84.03%, 12.5%, 5.08%, 90.04%);
+}
+
+.profile {
+  position: absolute;
+  border-radius: 50%;
+  @include mixingfunc.measures(83px, 83px, 1312px, 35px);
+
+  background: url("/src/public/perfil2.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#tabla {
+  //@include mixingfunc.measures(1051px, 594px, 344px, 142px);
+  margin: 142px 45px 288px 344px;
+  width: 1051px;
+  height: 594px;
+  background: #8eaaff;
+  border-radius: 20px;
+  position: absolute;
+
+  .tab {
+    overflow-y: hidden;
+    width: 1051px;
+    height: 529px;
+  }
+  .table {
+    //@include mixingfunc.measures(1051px, 529px, 0px, 0px);
+
+    width: 1051px;
+    height: 529px;
+    background: #ffffff;
+    border-radius: 20px;
+    border-collapse: collapse;
+
+    th {
+      @include mixingfunc.font-style(Inter, normal, 600, 30px, 130%, center);
+      border: solid 1px black;
+      height: 53px;
+    }
+    td {
+      @include mixingfunc.font-style(Inter, normal, 400, 25px, 130%, left);
+      border: solid 1px black;
+      padding-left: 17px;
+      height: 39px;
+    }
+  }
+  .icons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    i {
+      width: 30px;
+      height: 30px;
+    }
+  }
+
+  .btn {
+    @include mixingfunc.measures(226px, 48px, 810px, 539px);
+    @include mixingfunc.font-style(Inter, normal, 600, 25px, 100%, center);
+    background: #338af3;
+    border-radius: 20px;
+    position: absolute;
+    color: #ffffff;
+    width: 214px;
+    height: 32px;
+    left: 816px;
+    top: 547px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 130%;
+    /* or 32px */
+
+    color: #ffffff;
+    text-decoration: none;
+
+    &:hover {
+      background: #fff;
+      color: #000;
+      transition: all 0.4s ease;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1440px;
+  height: 1027px;
+  display: flex;
+  background-image: radial-gradient(
+    circle at 36.11% 58.02%,
+    #c6deff 0,
+    #5b8ee1 50%,
+    #0047a7 100%
+  );
+  position: relative;
+  margin: 30px auto;
+}

@@ -1,0 +1,39 @@
+@use "rectangle";
+@use "nav";
+@use "global";
+@use "comments";
+@use "new-review";
+@use "modal-delete";
+@use "modal-show";
+
+.fa-pen {
+  font-size: 30px;
+  color: #ff9811;
+  background-color: white;
+  &:hover {
+    color: #0c6dc1;
+  }
+}
+.fa-dot-circle {
+  font-size: 30px;
+  color: #0057ff;
+
+  &:hover {
+    color: #041368;
+  }
+}
+
+.remove {
+  font-size: 30px;
+  color: #ff0000;
+  &:hover {
+    color: #0a3fee;
+  }
+}
+.user {
+  font-size: 30px;
+  color: #ff0000;
+  &:hover {
+    color: #0a3fee;
+  }
+}

@@ -1,0 +1,105 @@
+.modal {
+  margin: 145px 256px 175px 256px;
+  width: 928px;
+  height: 707px;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  transition: transform 1s;
+  transform: translateY(0%);
+
+  .parrafo {
+    position: absolute;
+    width: 849px;
+    height: 381px;
+    left: 39px;
+    top: 218px;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 130%;
+    /* or 32px */
+
+    text-align: justify;
+
+    color: #000000;
+    overflow-y: hidden;
+  }
+  .title-modal {
+    position: absolute;
+    width: 328px;
+    height: 32px;
+    left: 300px;
+    top: 23px;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 130%;
+    /* or 32px */
+
+    color: #000000;
+  }
+  .mention-modal {
+    position: absolute;
+    width: 188px;
+    height: 32px;
+    left: 39px;
+    top: 101px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 130%;
+    /* or 32px */
+
+    color: #000000;
+  }
+  .type-modal {
+    position: absolute;
+    width: 114px;
+    height: 32px;
+    left: 39px;
+    top: 133px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 130%;
+    /* or 32px */
+
+    color: #000000;
+  }
+  .close {
+    position: absolute;
+    left: 95.04%;
+    right: 1.72%;
+    top: 2.11%;
+    bottom: 93.65%;
+    color: #000;
+    i {
+      font-size: 30px;
+    }
+  }
+}
+
+#modal-container {
+  visibility: hidden;
+  position: absolute;
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+
+  background-color: rgba(143, 143, 143, 0.65);
+}
+.modal-close {
+  transform: translateY(-200%);
+}

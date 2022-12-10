@@ -1,0 +1,125 @@
+#cont-comments {
+  position: absolute;
+  width: 1051px;
+  height: 850px;
+  top: 157px;
+  right: 50px;
+  bottom: 54px;
+  left: 349px;
+  overflow-y: hidden;
+
+  margin: 0;
+
+  .comments {
+    width: 1051px;
+    height: 255px;
+    background: #ffffff;
+    border-radius: 20px;
+    position: relative;
+    margin-bottom: 9px;
+
+    .comment {
+      position: absolute;
+      width: 954px;
+      height: 95px;
+      left: 48px;
+      top: 90px;
+
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 25px;
+      line-height: 130%;
+      text-align: center;
+      /* or 32px */
+
+      text-align: justify;
+
+      color: #000000;
+    }
+  }
+}
+.title-comment {
+  width: 121px;
+  height: 39px;
+  margin-left: 477px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 130%;
+  /* identical to box height, or 39px */
+
+  color: #ffffff;
+}
+.btn-share {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 238px;
+  height: 48px;
+  left: 808px;
+  top: 202px;
+
+  background: #338af3;
+  border: 1px solid #8f8f8f;
+  border-radius: 20px 0px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 130%;
+  /* or 32px */
+
+  color: #ffffff;
+}
+.name {
+  position: absolute;
+  width: 170px;
+  height: 32px;
+  left: 113px;
+  top: 25px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 130%;
+  /* or 32px */
+
+  color: #000000;
+}
+
+.type {
+  position: absolute;
+  width: 97px;
+  height: 26px;
+  left: 113px;
+  top: 55px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 130%;
+  /* identical to box height, or 26px */
+
+  color: #000000;
+}
+.ago {
+  position: absolute;
+  width: 129px;
+  height: 26px;
+  left: 863px;
+  top: 24px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 130%;
+  /* identical to box height, or 26px */
+
+  color: #000000;
+}
